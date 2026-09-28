@@ -11,7 +11,7 @@ function formatAs12HourClock(time) {
     return `12${time.slice(2)} pm`;
   }
   if (hours > 12) {
-    return `${String(hours - 12).padStart(2, "0")}:${time.slice(3)} pm`;
+    return `${String(hours - 12).padStart(2, "0")}:${time.slice(3)} pm `;
   }
   return `${time} am`;
 }
