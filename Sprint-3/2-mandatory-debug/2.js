@@ -25,7 +25,6 @@ console.log(`The last digit of 806 is ${getLastDigit(806)}`);*/
 // I was wrong in all the function call, the result is the same because the function always uses the global num.
 
 // Finally, correct the code to fix the problem
-let num = 103;
 
 function getLastDigit(num) {
   return num.toString().slice(-1);
